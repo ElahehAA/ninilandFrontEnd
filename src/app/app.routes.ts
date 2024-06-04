@@ -10,8 +10,6 @@ export const routes: Routes = [
         {path:"Test",component:TestComponent},
 
 
-
-
     ]
 },
 {path:"**",component:LayoutComponent}
