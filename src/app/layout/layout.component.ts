@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class LayoutComponent {
 
+  public logoSrc:string="assets/Images/logo.png";
+  constructor(){
+
+  }
 }
