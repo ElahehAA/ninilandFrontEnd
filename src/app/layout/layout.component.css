@@ -1,3 +1,17 @@
 .SearchBox{
-    background-color:#CBE432;
+    /* background-color:#448D76; */
+    padding-top: 10px;
+}
+
+.xxx{
+    width: 100%;
+}
+
+/* .loginBut:hover{
+    background-color: #F7E3D4;
+} */
+
+.loginBut{
+    background-color: #F7E3D4;
+    
 }

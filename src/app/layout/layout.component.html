@@ -1,9 +1,28 @@
-<div class="container text-center" dir="rtl">
+<div class="text-center" dir="rtl">
     
     <div class="row SearchBox">
-        <div class="col-md-2">
-            <img [src]="logoSrc" >
+        <div class="col-md-3 col-sm-6 d-inline" style="border:1px">
+            <img [src]="logoSrc" width="70%" height="70%">
         </div>
+        <div class="col-sm-3 d-lg-none d-inline" style="border:1px">
+            <button mat-icon-button color="primary">
+                <mat-icon matSuffix>login</mat-icon>
+            </button>
+        </div>
+        <div class="col-md-6">
+            <mat-form-field appearance="outline" class="xxx">
+                <mat-label>جستجو</mat-label>
+                <input matInput placeholder="عبارت مورد نظر را وراد کنید">
+                <mat-icon matSuffix>search</mat-icon>
+              </mat-form-field>
+        </div>
+        <div class="col-md-3 d-none d-lg-block" style="border:1px">
+            <button mat-fab extended class="loginBut">
+                <mat-icon matSuffix>login</mat-icon>
+                ورود | ثبت نام
+              </button>
+        </div>
+        
     </div>
 
 </div>
