@@ -6,3 +6,7 @@ a:hover{
    color: #1f6851;
    font-weight: bolder;
 }
+
+button.collapsed[aria-expanded="false"]>i.fa{
+   transform: rotate(180deg);
+ }
